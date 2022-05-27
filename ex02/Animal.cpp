@@ -6,7 +6,7 @@
 /*   By: cnorma <cnorma@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/08 14:20:08 by cnorma            #+#    #+#             */
-/*   Updated: 2022/05/10 14:57:12 by cnorma           ###   ########.fr       */
+/*   Updated: 2022/05/27 20:02:16 by cnorma           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,6 @@ Animal::Animal(const Animal& other)
 }
 
 std::string Animal::getType() const {return type;}
-
-//void Animal::makeSound() const
-//{
-//	std::cout << "ANIMAL " + type << " says ?????" << std::endl;
-//}
 
 Animal::~Animal()
 {

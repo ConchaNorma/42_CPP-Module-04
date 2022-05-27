@@ -6,7 +6,7 @@
 /*   By: cnorma <cnorma@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/08 14:20:08 by cnorma            #+#    #+#             */
-/*   Updated: 2022/05/08 21:13:56 by cnorma           ###   ########.fr       */
+/*   Updated: 2022/05/27 20:04:22 by cnorma           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ Dog::Dog(const Dog& other)
 	}
 	this->m_brain = new Brain();
 	*(this->m_brain) = *(other.getBrain());
-	//*this = other;
 }
 
 void Dog::makeSound() const

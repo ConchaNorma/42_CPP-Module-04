@@ -6,7 +6,7 @@
 /*   By: cnorma <cnorma@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/08 14:14:52 by cnorma            #+#    #+#             */
-/*   Updated: 2022/05/10 14:57:33 by cnorma           ###   ########.fr       */
+/*   Updated: 2022/05/27 20:05:16 by cnorma           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,16 +135,6 @@ void Test3()
 
 		delete dog;
 }
-
-//void Test4()
-//{
-//	std::cout << "\n***** TEST4 *****\n" << std::endl;
-//	const Animal* meta = new Animal();
-
-//	meta->makeSound();
-
-//	delete meta;
-//}
 
 int	main (void)
 {
